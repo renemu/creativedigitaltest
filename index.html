@@ -1,115 +1,223 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Creative Digital Environments — graphic design, UI/UX, and mobile app design by Muhammad Rifki Zulfikar."
+    />
     <link rel="stylesheet" href="assets/styles/style.css" />
-    <script src="assets/script.js"></script>
-    <title>Creative Digital Enviroments</title>
+    <script src="assets/script.js" defer></script>
+    <title>Creative Digital Environments</title>
   </head>
   <body id="home">
-    <header>
-      <div class="jumbotron">
-        <h1>Creative Digital</h1>
-        <h2 class="env">Enviroments</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas illo doloribus perferendis, eius quam animi corporis culpa vitae ducimus odit cum aspernatur repellendus ratione adipisci aut pariatur? Ipsa, iusto error.</p>
-      </div>
-
-      <nav>
-        <div class="brand">
-          <div class="creativedigital">Creative Digital</div>
-          <div class="environments">Environments</div>
-        </div>
+    <a class="skip-link" href="#project">Skip to content</a>
+    <header class="site-header">
+      <nav class="container" aria-label="Main navigation">
+        <a class="brand" href="#home"
+          ><span class="brand-mark" aria-hidden="true">cd.</span
+          ><span>Creative Digital<small>ENVIRONMENTS</small></span></a
+        >
         <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="#project">Project</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li>
+            <a class="nav-contact" href="#contact"
+              >Let's talk <span aria-hidden="true">↗</span></a
+            >
+          </li>
         </ul>
       </nav>
     </header>
-
     <main>
-      <div id="content">
-        <article id="project" class="card">
-          <h2>Project</h2>
-          <img src="assets/image/phonedigital.jpeg" alt="phone" class="image-article" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nesciunt soluta eligendi, magnam assumenda accusamus minus ut dolores magni corporis, tenetur itaque saepe rerum at. Ratione iusto maxime nisi deserunt? Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Voluptates dolores necessitatibus sapiente possimus voluptate nulla odit veritatis dignissimos vero commodi recusandae velit, modi quidem rerum quas non ducimus praesentium
-            fugiat?
+      <section class="jumbotron container" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> DESIGN · TECHNOLOGY · CREATIVITY</p>
+          <h1 id="hero-title">
+            Creative ideas.<br />Digital <em>possibilities.</em>
+          </h1>
+          <p class="hero-description">
+            Thoughtful design that connects people and ideas. Exploring visual
+            identities, intuitive interfaces, and meaningful digital
+            experiences.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quae assumenda alias voluptatum ipsam reiciendis blanditiis perferendis quas, reprehenderit cumque maxime soluta ducimus quia libero dicta! Lorem A aliquid deserunt
-            dolore! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus nam voluptates eaque voluptatem obcaecati atque dolorum quibusdam ullam nemo, similique voluptas ad cumque modi velit ab est a cum sapiente.
-          </p>
-          <section>
-            <h3>Design Graphic</h3>
-            <img src="assets/image/designgraphic.png" alt="designgraph" class="image-article" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos molestiae corrupti fuga velit necessitatibus ab ut rem nesciunt rerum laboriosam cumque perferendis, natus eum hic, ratione est maxime aliquam dicta.</p>
-          </section>
-          <section>
-            <h3>Design UI/UX</h3>
-            <img src="assets/image/designux-ui.png" alt="uiux" class="image-article" />
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque modi tempore aliquid aliquam nemo, nihil molestiae quidem minima commodi sint debitis iusto iste nulla expedita ipsam nostrum recusandae necessitatibus soluta?
-            </p>
-          </section>
-          <section>
-            <h3>Mobile Apps Design</h3>
-            <img src="assets/image/mobileappsdesign.png" alt="mobappsdesign" class="image-article" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsam nesciunt provident eligendi aliquam eius minima! Nisi, debitis fugit quis porro est exercitationem facere, assumenda eligendi corporis molestiae incidunt
-              perspiciatis!
-            </p>
-          </section>
-        </article>
-        <article id="contact" class="card">
-          <h2>Contact</h2>
-          <img src="assets/image/Digital-Marketing-1.jpg" alt="tab" class="image-article" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nesciunt soluta eligendi, magnam assumenda accusamus minus ut dolores magni corporis, tenetur itaque saepe rerum at. Ratione iusto maxime nisi deserunt? Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Voluptates dolores necessitatibus sapiente possimus voluptate nulla odit veritatis dignissimos vero commodi recusandae velit, modi quidem rerum quas non ducimus praesentium
-            fugiat?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quae assumenda alias voluptatum ipsam reiciendis blanditiis perferendis quas, reprehenderit cumque maxime soluta ducimus quia libero dicta! Lorem A aliquid deserunt
-            dolore! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus nam voluptates eaque voluptatem obcaecati atque dolorum quibusdam ullam nemo, similique voluptas ad cumque modi velit ab est a cum sapiente.
-          </p>
-        </article>
-      </div>
-
-      <aside class="card">
-        <article class="profile-card">
-          <header class="aside-header">
-            <h2>About Me</h2>
-            <figure>
-              <img src="assets/image/RIFKI3X4small.jpg" class="image-bio" />
-              <button id="viewaboutme" class="check-me" onclick="viewaboutme()">
-                <div id="check-me">Check Me</div>
-              </button>
-            </figure>
-          </header>
-
-          <section id="about-me" class="tentang">
-            <h2 class="name">Muhammad Rifki Zulfikar</h2>
-            <div class="full-information">
-              <p>
-                Lahir di cilacap jawa tengah 15 maret 2000, Memiliki bekal pendidikan di Universitas Siliwangi Tasikmalaya, jurusan Teknik Elektro membuat saya ingin terus mendalami dunia elektronika dan komputer. Sehingga saya memiliki
-                beberapa pengalaman yang cukup baik dalam bidang elektro arus lemah dan juga pemrograman. Penelitian tugas akhir yang saya lakukan di kampus yaitu membuat sistem pemantauan dan penyeimbang tegangan sel baterai dengan metode
-                <em> switching</em>, penelitian ini menggunakan Arduino Mega 2560 dan ESP32 dengan bahasa pemrograman C dan juga membuat rangkaian modul relay sebagai saklar <em> switching </em>untuk sistem penyeimbang tegangan baterai,
-                pemantauan juga menggunakan IoT <em>(internet of things)</em>.
-              </p>
-              <p>
-                check my <a href="https://github.com/renemu">GitHub</a>, <a href="https://instagram.com/mr_zulfikar_r?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a>,
-                <a href="https://linkedin.com/in/muhammad-rifki-zulfikar-4243a9144">LinkedIn</a>
-              </p>
+          <a class="button" href="#project"
+            >Explore the work <span aria-hidden="true">↗</span></a
+          >
+          <div class="hero-note">
+            <span class="note-line"></span> A space where creativity meets
+            technology.
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img
+            src="assets/image/phonedigital.jpeg"
+            alt="Digital technology and mobile connectivity"
+            fetchpriority="high"
+          />
+          <div class="image-caption">
+            <span>CREATIVE DIGITAL ENVIRONMENTS</span
+            ><span aria-hidden="true">↗</span>
+          </div>
+          <div class="visual-label">
+            Made to connect.<br /><strong>Designed to inspire.</strong>
+          </div>
+        </div>
+      </section>
+      <div class="content-layout container">
+        <div id="content">
+          <article id="project">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">THE CREATIVE FOCUS</p>
+                <h2>Ideas brought to life.</h2>
+              </div>
+              <span class="section-number">01 /</span>
             </div>
+            <p class="section-intro">
+              From the first sketch to the final screen, explore three sides of
+              digital design.
+            </p>
+            <div class="project-grid">
+              <section class="project-card">
+                <div class="project-image">
+                  <img
+                    src="assets/image/designgraphic.png"
+                    alt="Graphic design illustration"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="project-copy">
+                  <span class="category">VISUAL IDENTITY</span>
+                  <h3>Graphic Design</h3>
+                  <p>
+                    Visual stories through color, typography, and composition. A
+                    distinct identity for every idea.
+                  </p>
+                </div>
+              </section>
+              <section class="project-card">
+                <div class="project-image">
+                  <img
+                    src="assets/image/designux-ui.png"
+                    alt="User interface and user experience design illustration"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="project-copy">
+                  <span class="category">DIGITAL EXPERIENCES</span>
+                  <h3>UI/UX Design</h3>
+                  <p>
+                    Clear, considered interfaces that make everyday interactions
+                    feel simple and natural.
+                  </p>
+                </div>
+              </section>
+              <section class="project-card">
+                <div class="project-image">
+                  <img
+                    src="assets/image/mobileappsdesign.png"
+                    alt="Mobile application design illustration"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="project-copy">
+                  <span class="category">DESIGNED FOR MOBILE</span>
+                  <h3>Mobile App Design</h3>
+                  <p>
+                    Useful experiences for smaller screens, with attention to
+                    every detail along the way.
+                  </p>
+                </div>
+              </section>
+            </div>
+          </article>
+          <article id="contact" class="contact-card">
+            <div>
+              <p class="eyebrow">LET'S CONNECT</p>
+              <h2>Good things start<br />with a conversation.</h2>
+              <p>
+                Have an idea in mind? Let's explore what we can create together.
+              </p>
+              <a
+                class="button button-light"
+                target="_blank"
+                href="https://www.linkedin.com/in/muhammad-rifki-zulfikar-s-t-4243a9144"
+                >Connect on LinkedIn <span aria-hidden="true">↗</span></a
+              >
+            </div>
+            <span class="contact-art" aria-hidden="true">✳</span>
+          </article>
+        </div>
+        <aside class="profile-card" aria-labelledby="profile-title">
+          <p class="eyebrow">THE PERSON BEHIND THE IDEAS</p>
+          <img
+            src="assets/image/RIFKI3X4small.jpg"
+            alt="Muhammad Rifki Zulfikar"
+            class="image-bio"
+            loading="lazy"
+          />
+          <h2 id="profile-title">Muhammad Rifki<br />Zulfikar</h2>
+          <p class="profile-role">Exploring design & technology</p>
+          <p class="profile-summary">
+            An electrical engineering background and a curiosity for
+            electronics, programming, and the digital world.
+          </p>
+          <div class="social-links">
+            <a href="https://github.com/renemu" target="_blank">GitHub ↗</a
+            ><a
+              target="_blank"
+              href="https://www.linkedin.com/in/muhammad-rifki-zulfikar-s-t-4243a9144"
+              >LinkedIn ↗</a
+            >
+          </div>
+          <button
+            id="viewaboutme"
+            class="check-me"
+            aria-expanded="false"
+            aria-controls="about-me"
+          >
+            More about me <span aria-hidden="true">+</span>
+          </button>
+          <section id="about-me" lang="id" hidden>
+            <p>
+              Saya memiliki bekal pendidikan di Universitas Siliwangi
+              Tasikmalaya, jurusan Teknik Elektro membuat saya ingin terus
+              mendalami dunia elektronika dan komputer. Sehingga saya memiliki
+              beberapa pengalaman yang cukup baik dalam bidang elektro arus
+              lemah dan juga pemrograman. Penelitian tugas akhir yang saya
+              lakukan di kampus yaitu membuat sistem pemantauan dan penyeimbang
+              tegangan sel baterai dengan metode
+              <em> switching</em>, penelitian ini menggunakan Arduino Mega 2560
+              dan ESP32 dengan bahasa pemrograman C dan juga membuat rangkaian
+              modul relay sebagai saklar <em> switching </em>untuk sistem
+              penyeimbang tegangan baterai, pemantauan juga menggunakan IoT
+              <em>(internet of things)</em>.
+            </p>
+            <p>
+              check my
+              <a href="https://github.com/renemu" target="_blank">GitHub</a>,
+              <a
+                target="_blank"
+                href="https://instagram.com/mr_zulfikar_r?igshid=OGQ5ZDc2ODk2ZA=="
+                >Instagram</a
+              >,
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/muhammad-rifki-zulfikar-s-t-4243a9144"
+                >LinkedIn</a
+              >
+            </p>
           </section>
-        </article>
-      </aside>
+        </aside>
+      </div>
     </main>
-    <footer>
-      <p>Tugas Akhir Membuat Website &#169; 2024, Muhammad Rifki Zulfikar</p>
+    <footer class="container">
+      <a class="footer-brand" href="#home"
+        >Creative Digital<span> Environments</span></a
+      >
+      <p>© 2024 Muhammad Rifki Zulfikar · Tugas Akhir Membuat Website</p>
     </footer>
   </body>
 </html>

@@ -1,4 +1,11 @@
-function viewaboutme() {
-  let aboutme = document.getElementById("about-me");
-  aboutme.style.display = aboutme.style.display === "none" ? "block" : "none";
-}
+const aboutButton = document.getElementById('viewaboutme');
+const aboutSection = document.getElementById('about-me');
+
+aboutButton.addEventListener('click', () => {
+  const isExpanded = aboutButton.getAttribute('aria-expanded') === 'true';
+  aboutButton.setAttribute('aria-expanded', String(!isExpanded));
+  aboutSection.hidden = isExpanded;
+  aboutButton.innerHTML = isExpanded
+    ? 'More about me <span aria-hidden="true">+</span>'
+    : 'Less about me <span aria-hidden="true">−</span>';
+});
